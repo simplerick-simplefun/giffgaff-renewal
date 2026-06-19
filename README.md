@@ -18,7 +18,7 @@
    - 电脑下载安装adb driver。具体自行搜索。
    - 手机打开 adb (系统->开发者选项->usb调试)，并使用usb线连接电脑
       - 也可使用其他方式连接手机adb，如 wireless debugging
-   - 打开命令行，输入命令 "adb devices" ，检测确保adb能够正常运行/连接/使用。具体自行搜索。
+   - 打开命令行，输入命令 `adb devices` ，检测确保adb能够正常运行/连接/使用。具体自行搜索。
 
 2. **安卓手机/平板准备**
    - 插入 Giffgaff SIM 卡，确保手机识别并显示 Giffgaff 移动网络。
@@ -31,7 +31,7 @@
 
 2. **执行保号**
    - 下载 jiaoben.sh
-   - 打开命令行，运行：adb push jiaoben.sh /data/local/tmp/ && adb shell sh /data/local/tmp/jiaoben.sh
+   - 打开命令行，运行：`adb push jiaoben.sh /data/local/tmp/ && adb shell sh /data/local/tmp/jiaoben.sh`
       - 解释：shell 用户 (uid 1000) 有足够权限，因此无需 root。termux 默认用户权限不够，因此不能直接在 termux 运行，可以 termux 连接 wireless debugging 来运行。
 
 3. **验证扣费**
