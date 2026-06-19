@@ -19,7 +19,7 @@
 
 2. **安卓手机/平板准备**
    - 插入 Giffgaff SIM 卡，确保手机识别并显示 Giffgaff 移动网络。
-   - **确保手机没有在使用 giffgaff SIM卡** 作为当前互联网流量，以防止后台应用偷跑giffgaff流量
+   - **确保手机没有在使用 giffgaff SIM卡** 作为当前互联网流量通道，以防止后台应用偷跑giffgaff流量
       - 例如：giffgaff SIM卡漫游关闭/已连接了wifi/使用双卡另一卡的流量/等等etc.
    - **不需要**断开/关闭 Wi-Fi
    - **不需要**打开"数据网络"
