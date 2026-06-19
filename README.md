@@ -2,6 +2,8 @@
 
 **只适用于安卓手机（或有sim插槽的安卓平板）**
 
+**无需 root**
+
 一个极简的流量消耗工具，专为 Giffgaff SIM 卡保号设计。每次操作仅消耗约 120KB 流量，成本约 2-3 便士（0.2 元人民币）。
 
 ## 📋 功能特点
@@ -30,6 +32,7 @@
 2. **执行保号**
    - 下载 jiaoben.sh
    - 打开命令行，运行：adb push jiaoben.sh /data/local/tmp/ && adb shell sh /data/local/tmp/jiaoben.sh
+      - 解释：shell 用户 (uid 1000) 有足够权限，因此无需 root。termux 默认用户权限不够，因此不能直接在 termux 运行，可以 termux 连接 wireless debugging 来运行。
 
 3. **验证扣费**
    - 拨打 `*100#` 查询余额
